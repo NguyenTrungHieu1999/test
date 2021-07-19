@@ -1,16 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
 import MessengerCustomerChat from 'react-messenger-customer-chat';
  
 ReactDOM.render(
   <MessengerCustomerChat
-          pageId="100225912358943"
-          appId="136478068166816"
-        />,
+    pageId="136478068166816"
+    appId="100225912358943"
+    htmlRef="<REF_STRING>"
+  />,
   document.getElementById('demo')
 );
 
